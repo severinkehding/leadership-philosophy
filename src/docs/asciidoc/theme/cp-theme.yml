@@ -1,0 +1,56 @@
+# define custom fonts
+font:
+    catalog:
+        Arial:
+            normal: arial.ttf
+            italic: ariali.ttf
+            bold: arialbd.ttf
+            bold_italic: arialbi.ttf
+
+page:
+    size: A4
+    margin: [2.5cm, 2.5cm, 2.0cm, 2.5cm]
+title_page:
+    align: left
+    background_color: #cc0000
+    logo:
+        image: image:../images/tarent_logo_white.png[]
+    font_family: Arial
+    font_color: #ffffff
+    title:
+        font_size: 32
+    authors:
+        font_size: 12
+
+header:
+    height: 1.8cm
+    border_color: #000000
+    border_width: 1
+    border_style: solid
+    padding: [0, 0, 0, 0]
+    font_family: Arial
+    font_size: 12
+    recto_content:
+        left: '{document-title}'
+        right: image:../images/tarent_logo_red.png[fit=contain]
+
+    verso_content:
+        left: $header_recto_content_left
+        right: $header_recto_content_right
+
+footer:
+    height: 1.6cm
+    border_color: #000000
+    border_width: 1
+    border_style: solid
+    padding: [0, 0, 0, 0]
+    font_family: Arial
+    font_size: 12
+
+base:
+    font_family: Arial
+heading:
+    font_family: Arial
+
+table:
+    font_size: 11

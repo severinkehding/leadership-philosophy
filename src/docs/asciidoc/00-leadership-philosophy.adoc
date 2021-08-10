@@ -1,0 +1,22 @@
+= leadership-philosophy
+leadership-philosophy
+:toc:
+:experimental:
+:data-uri:
+:xrefstyle: full
+:doctype: book
+:encoding: utf-8
+:lang: de
+:toclevels: 3
+:sectnums:
+:chapter-label:
+
+:sectnums!:
+
+ifndef::imagesdir[:imagesdir: images]
+
+<<<
+
+:sectnums:
+//include::01-target.adoc[]
+
